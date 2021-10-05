@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.mb-5{
+  display: inline-block;
+  margin: 0.5%;
+  background-color:#fff;
+  padding: 2.5%;
+  margin-bottom:0;
+}
+.mb-container{
+  display: inline-block;
+  position:relative;
+  left:400px;
+  margin: 4px;
+  background-color:#fff;
+  padding: 10px 80px;
+}
+
+.border-0{
+  margin-top:5px ;
+  padding-right: 30px;
+  border-radius: 0;
+  background-color:rgb(93, 93, 250);
+  color:#fff;
+  font-weight:bold;
+  cursor: pointer;
+}
+.form-control{
+  margin: 4px;
+  border-radius: 0;
+}
+
+.navbar{
+  width: 100%;
+  margin:0;
+  padding-bottom: 20px;
+  color:#fff;
+}
+
+.navbar-brand{
+  font-size:25px;
+  font-weight: bold;
+}
+.about{ 
+  color: rgb(255, 255, 255);
+  position:relative;
+  left:185px;
+  font-size: 15px;
+}
+.login{ 
+  position:relative;
+  left:190px;
+  font-size: 15px;
+}
+
+li:nth-child(1) { 
+  color: rgb(255, 255, 255);
+  position:relative;
+  left:700px;
+  font-size: 15px;
+}
+li:nth-child(2) { 
+  position:relative;
+  left:710px;
+  font-size: 15px;
+}
+li:nth-child(3) { 
+  position:relative;
+  left:720px;
+  font-size: 15px;
+}
+li:nth-child(4) { 
+  position:relative;
+  left:725px;
+  font-size: 15px;
+}
+
+.findbook{
+  color: lime;
+}
+.findbook:hover{
+  color:rgb(224, 224, 224);
+}
+.adduser{
+  color: rgb(189, 188, 188);
+}
+.libraryManager{
+  color:#fff;
+}
+.libraryManager:active{
+  color:rgb(1, 161, 73);
+  text-decoration:none;
+}
+.libraryManager:hover{
+  color:rgb(224, 224, 224);
+}
+.logout{
+  color: rgb(241, 57, 57);
+}
+
+.h-100{
+  margin-bottom:0;
+  height: 100%;
+}
+.rounded-3{
+  margin-top: 15px;
+}
+
+.card-body{
+  border:none;
+}
+
+
+@media(max-width:500px){
+  .form-control{
+    border-radius: 0;
+    display: block;
+  }
+  .mt-5{
+    display: block;
+    margin:1px;
+  }
+}
+
+.tbody{
+  background-color:rgb(255, 255, 255);
+}
+.Apptitle{
+  color:#fff;
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 500px;
+}
+
+.modalbody,.h5,.pastbookings{
+  display:inline;
+  text-align: left;
+}
+
+
+
+
+
+
+
